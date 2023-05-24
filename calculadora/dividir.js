@@ -1,3 +1,4 @@
 const dividir = (a,b) => a / b
 
-module.exports = dividir
+module.exports = { dividir
+}
