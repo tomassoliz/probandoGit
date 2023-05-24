@@ -1,5 +1,3 @@
-const modulo = function (a, b) {
-    return a % b
-}
+const modulo = (a,b) => +a % +b
 
-module.exports = modulo;
+module.exports = modulo
