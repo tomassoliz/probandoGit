@@ -1,5 +1,5 @@
 const multiplicar = (a,b) => a * b
 
-module.exports = multiplicar
-
-// perros
+module.exports = {
+    multiplicar
+}

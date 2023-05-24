@@ -1,3 +1,5 @@
+    ******* CREAR DE PROYECTO GRUPAL ******
+
 1. Crear un repositorio en gitHub
 2. Tener los archivos y subirlos al repositorio
 3. Aceptar invitacion y luego clonar
@@ -16,3 +18,19 @@ ACLARACIONES:
 - No es necesario pushear tu rama en donde estas trabajando al menos que quieras que vean tus cosa
 - Iniciar siempre con un - git init 
 - No olvidarse de pullear antes por si los compañeros hicieron algun cambio
+
+    ******* COMANDOS GIT ******
+
+git config --global user.name "nombreDeUsuario": Establece el nombre que desea este anexado a sus transacciones de commit.
+
+git config --global user.email "emailDeUsuario":
+Establece el e-mail que desea esté anexado a sus transacciones de commit.
+
+git init : Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, o para INICIALIZAR un nuevo repositorio vacío.
+
+git clone : Descarga un proyecto y toda su historia de versión.
+
+git status : Enumera todos los archivos nuevos o modifcados que se deben confrmar.
+
+git diff : Muestra las diferencias de archivos que no se han enviado aún al
+área de espera
