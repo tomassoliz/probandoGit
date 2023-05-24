@@ -14,6 +14,9 @@ switch (process.argv[2]) {
         case "dividir":
         resultado = calculadora.dividir(process.argv[3],process.argv[4])
         break;
+        case "modulo":
+        resultado = calculadora.modulo(process.argv[3],process.argv[4])
+        break;
     default:
         resultado = "ERROR: comando incorrecto";
         break;

@@ -1,6 +1,3 @@
-const restar = function (a, b) {
-    return a - b
-}
-module.exports = {
-    restar
-}
+const restar = (a,b) => +a - +b
+
+module.exports = restar

@@ -19,18 +19,50 @@ ACLARACIONES:
 - Iniciar siempre con un - git init 
 - No olvidarse de pullear antes por si los compañeros hicieron algun cambio
 
-    ******* COMANDOS GIT ******
+    ******* COMANDOS GIT *******
+
+-CONFIGURANDO HERRAMIENTAS
 
 git config --global user.name "nombreDeUsuario": Establece el nombre que desea este anexado a sus transacciones de commit.
 
 git config --global user.email "emailDeUsuario":
 Establece el e-mail que desea esté anexado a sus transacciones de commit.
 
+-CREAR REPOSITORIOS
+
 git init : Puede utilizarse para convertir un proyecto existente y sin versión en un repositorio de Git, o para INICIALIZAR un nuevo repositorio vacío.
 
 git clone : Descarga un proyecto y toda su historia de versión.
 
+-EFECTUAR CAMBIOS    
+
 git status : Enumera todos los archivos nuevos o modifcados que se deben confrmar.
 
-git diff : Muestra las diferencias de archivos que no se han enviado aún al
-área de espera
+git diff : Muestra las diferencias de archivos que no se han enviado aún al área de espera.
+
+git reset "nombrArchivo": Mueve el archivo del área de espera, pero preserva su contenido.
+
+git commit -m "comentario": Registra las instantáneas del archivo permanentemente en el historial de versión.
+
+-CAMBIOS GRUPALES
+
+git branch: Enumera todas las ramas en el repositorio actual.
+
+git branch "nombreRama": Crea una nueva rama.
+
+git checkout "CambiaDeRama": Cambia a la rama especifcada y actualiza el directorio activo.
+
+git merge "Rama": Combina el historial de la rama especifcada con la rama actual (pararse sobre rama para modificarla).
+
+git branch -d "nombreRama": Borra la rama especifcada.
+
+-SINCRONIZAR CAMBIOS
+
+git push [alias] "rama": Carga todos los commits de la rama local al GitHub.
+
+git pull [alias] "rama": Descarga el historial del marcador e incorpora cambios.
+
+
+
+
+
