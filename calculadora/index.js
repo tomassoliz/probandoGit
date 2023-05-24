@@ -7,7 +7,7 @@ const modulo = require('./modulo');
 module.exports = {
     sumar,
     restar,
-    multiplicar,
     dividir,
-    modulo
+    modulo,
+    multiplicar
 }
