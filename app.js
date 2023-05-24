@@ -1,6 +1,5 @@
-const calculadora = require('./calculadora')
-let resultado = 0
-
+const calculadora = require("./calculadora");
+let resultado = 0;
 switch (process.argv[2]) {
     case "sumar":
         resultado = calculadora.sumar(process.argv[3],process.argv[4])
