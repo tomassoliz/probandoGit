@@ -1,0 +1,18 @@
+1. Crear un repositorio en gitHub
+2. Tener los archivos y subirlos al repositorio
+3. Aceptar invitacion y luego clonar
+4. Crear una rama develop (rama para mergear) sin tocar la rama master (rama principal del proyecto)
+5. Se habla a quien le toca cada archivo 
+6. Se crear rama y se hace el archivo y se hace merge a develop
+    a. Creas rama: tomas-suma
+    b. Haces git add . , git commit -m "comentario"
+    c. Se va a develop y desde ahi haces: git merge tomas-suma
+7. Se hace un - git pull origin develop - por cambiops echo de compañeros
+8. Se hace un - git push origin develop - 
+9. Se avisa a los compañeros 
+
+ACLARACIONES:
+
+- No es necesario pushear tu rama en donde estas trabajando al menos que quieras que vean tus cosa
+- Iniciar siempre con un - git init 
+- No olvidarse de pullear antes por si los compañeros hicieron algun cambio
